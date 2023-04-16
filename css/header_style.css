@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "pretendard";
+    font-size: 100%;
+    font-weight: 700;
+    background-color: black;
+    color: white;
+}
+li{
+    list-style-type: none;
+}
+
+#header {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: white;
+    position: fixed;
+    top: 0;
+    font-size: 1.5rem;
+}
+
+.logo {
+    float: left;
+    padding: 25px;
+}
+
+.logo img {
+    width: 150px;
+    padding: 10px;
+}
+
+.logo img:hover {
+    content: url(../images/peaches_logo_hover.png);
+}
+
+#main_menu {
+    float: right;
+    padding: 35px;
+    /* border: solid 1px red; */
+}
+
+#main_menu li {
+    width: 100px;
+    display: inline;
+    padding: 10px;
+    /* border: solid 1px blue; */
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+    color: #666666;
+}
+
+a:hover {
+    color: #FEC0CB;
+}
+
+a:active {
+    color: #bc8c95;
+}

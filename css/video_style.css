@@ -1,0 +1,19 @@
+section {
+    height: 100vh;
+}
+video {
+    width: 100vw;
+    height: 100vh;
+}
+
+.container{
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+    height: 100vh;
+}
+.area {
+    flex-direction: column;
+    justify-content: center;
+    scroll-snap-align: start;
+    height: 100vh;
+}
