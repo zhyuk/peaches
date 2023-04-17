@@ -1,5 +1,5 @@
 body{
-    height: 2500px;
+    height: 300vh;
 }
 #bg{
     width: 100vw;
@@ -25,4 +25,11 @@ body{
     margin: auto;
     border: solid 1px red;
     box-sizing: border-box;
+}
+.img{
+    width: 400px;
+    padding: 10px;
+}
+table{
+    margin: auto;
 }
