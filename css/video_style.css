@@ -17,3 +17,10 @@ video {
     scroll-snap-align: start;
     height: 100vh;
 }
+#bg{
+    background-image: url(../images/timeless.gif);
+    background-repeat: no-repeat;
+    background-size: 95vw;
+    background-position: center;
+    justify-content: center;
+}

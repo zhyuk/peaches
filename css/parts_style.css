@@ -1,13 +1,13 @@
 body{
     height: 300vh;
 }
-#bg{
+/* #bg{
     width: 100vw;
     height: 100vh;
     background-image: url(../images/parts_bg.jpg);
     background-size: 100vw;
     background-repeat: no-repeat;
-}
+} */
 .container{
     overflow: auto;
     scroll-snap-type: y mandatory;
@@ -19,17 +19,37 @@ body{
     scroll-snap-align: start;
     height: 100vh;
 }
-.content{
-    width: 80%;
-    height: 90vh;
+.area video{
+    width: 100vw;
+    height: 80vh;
+    margin-top: 150px;
+    /* border: solid 1px red; */
+}
+.content {
+    width: 80vw;
+    height: 100vh;
     margin: auto;
-    border: solid 1px red;
-    box-sizing: border-box;
+    padding-top: 130px;
+    /* border: solid 1px red; */
+}
+.content h2{
+    font-size: 2rem;
+    text-align: center;
+    color: pink;
 }
 .img{
-    width: 400px;
+    width: 20vw;
     padding: 10px;
 }
 table{
     margin: auto;
+}
+th{
+    width: 20vw;
+    /* border: solid 1px red; */
+}
+th h3{
+    font-size: 1.4rem;
+    color: pink;
+    padding: 15px;
 }

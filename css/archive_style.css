@@ -1,11 +1,134 @@
-
-section{
-    width: 80%;
+.content {
+    width: 80vw;
     height: 80vh;
+    display: flex;
+    justify-content: center;
     margin: auto;
-    margin-top: 130px;
-    border: solid 1px red;
+    padding-top: 100px;
+    /* border: solid 1px red; */
 }
-img{
-    width: 300px;
+
+table {
+    width: auto;
+    height: auto;
+    margin: auto;
+    /* border: solid 1px green; */
+}
+
+td {
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 10px;
+}
+
+th {
+    width: 20vw;
+    height: 20vw;
+    /* background-color: pink; */
+    background-repeat: no-repeat;
+    color: pink;
+    border: solid 1px pink;
+}
+
+#UNIQLO:hover h1,
+#UNIQLO:hover h3,
+#KARTRIDER:hover h1,
+#KARTRIDER:hover h3,
+#CASETIFY:hover h1,
+#CASETIFY:hover h3,
+#BIBIGO:hover h1,
+#BIBIGO:hover h3,
+#NCT127:hover h1,
+#NCT127:hover h3,
+#OBEY:hover h1,
+#OBEY:hover h3,
+#COCA-COLA:hover h1,
+#COCA-COLA:hover h3,
+#AOMG:hover h1,
+#AOMG:hover h3,
+#LIBILLY:hover h1,
+#LIBILLY:hover h3,
+#RECARO:hover h1,
+#RECARO:hover h3 {
+    display: none;
+}
+
+#UNIQLO:hover {
+    background-image: url(../images/archive_uniqlo.png);
+    background-size: cover;
+}
+
+#KARTRIDER:hover {
+    background-image: url(../images/archive_kartrider.png);
+    background-size: cover;
+}
+
+#CASETIFY:hover {
+    background-image: url(../images/archive_casetify.png);
+    background-size: cover;
+}
+
+#BIBIGO:hover {
+    background-image: url(../images/archive_BIBIGO.jpg);
+    background-size: cover;
+}
+
+#NCT127:hover {
+    background-image: url(../images/archive_nct127.png);
+    background-size: cover;
+}
+
+#OBEY:hover {
+    background-image: url(../images/archive_obey.jpg);
+    background-size: cover;
+}
+
+#COCA-COLA:hover {
+    background-image: url(../images/archive_cocacola.png);
+    background-size: cover;
+}
+
+#AOMG:hover {
+    background-image: url(../images/archive_AOMG.jpg);
+    background-size: cover;
+}
+
+#LIBILLY:hover {
+    background-image: url(../images/archive_libilly.png);
+    background-size: cover;
+}
+
+#RECARO:hover {
+    background-image: url(../images/archive_recaro.png);
+    background-size: cover;
+}
+footer{
+    width: 100vw;
+    height: 100px;
+    background-color: pink;
+}
+#footer_logo {
+    float: left;
+    padding: 25px;
+}
+
+#footer_logo img {
+    width: 150px;
+    padding: 10px;
+}
+
+#footer_text {
+    float: right;
+    text-align: right;
+    width: 30%;
+    height: 100px;
+    padding: 15px;
+    color: black;
+    /* border: solid 1px red; */
+}
+
+.bold {
+    font-weight: 900;
+    font-size: 1.1rem;
+    margin-top: 10px;
 }
