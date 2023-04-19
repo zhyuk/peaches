@@ -2,7 +2,11 @@
     float: left;
     padding: 25px;
 }
-
+body{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 100%;
+    font-weight: 700;
+}
 #footer_logo img {
     width: 150px;
     padding: 10px;
