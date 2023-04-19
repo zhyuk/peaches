@@ -1,6 +1,4 @@
-body{
-    height: 300vh;
-}
+
 /* #bg{
     width: 100vw;
     height: 100vh;
@@ -27,7 +25,7 @@ body{
 }
 .content {
     width: 80vw;
-    height: 100vh;
+    height: 60vh;
     margin: auto;
     padding-top: 130px;
     /* border: solid 1px red; */
