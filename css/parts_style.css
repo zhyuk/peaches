@@ -36,18 +36,18 @@
     color: pink;
 }
 .img{
-    width: 20vw;
+    width: 15vw;
     padding: 10px;
 }
 table{
     margin: auto;
 }
 th{
-    width: 20vw;
+    width: 15vw;
     /* border: solid 1px red; */
 }
 th h3{
-    font-size: 1.4rem;
+    font-size: 1.15rem;
     color: pink;
-    padding: 15px;
+    padding: 10px;
 }

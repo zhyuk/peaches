@@ -1,9 +1,9 @@
-
-body{
+body {
     width: 100%;
     height: auto;
 }
-#bg{
+
+#bg {
     /* width: 100vw;
     height: 100vh; */
     background-image: url(../images/D8ne_bg.png);
@@ -11,17 +11,20 @@ body{
     background-repeat: no-repeat;
     background-position: center;
 }
-.container{
+
+.container {
     overflow: auto;
     scroll-snap-type: y mandatory;
     height: 100vh;
 }
+
 .area {
     flex-direction: column;
     justify-content: center;
     scroll-snap-align: start;
     height: 100vh;
 }
+
 .content {
     width: 80vw;
     height: 60vh;
@@ -29,63 +32,71 @@ body{
     padding-top: 130px;
     /* border: solid 1px red; */
 }
-#logo{
+
+#logo {
     width: 30vw;
 }
-table{
+
+table {
     margin: auto;
 }
-.img{
-    width: 20vw;
-    padding: 10px;;
+
+.img,
+#car1,
+#car2,
+#car3,
+#car4,
+#car5,
+#car6 {
+    width: 15vw;
+    padding: 10px;
 }
-th{
-    width: 20vw;
+
+th {
+    width: 15vw;
     /* border: solid 1px red; */
 }
-th h3{
-    font-size: 1.4rem;
+
+th h3 {
+    font-size: 1.15rem;
     color: pink;
-    padding: 15px;
 }
-#downtowner,#knotted{
-    width: 80vw;
-    margin: auto;
-    border: solid 1px greenyellow;
-}
+
 .text_box {
-    width: 65vw;
-    height: 50px;
+    width: 50vw;
     margin: auto;
     background-color: pink;
     color: black;
 }
-.text_box h1{
-    font-size: 2.5rem;
+
+.text_box h1 {
+    font-size: 2rem;
     font-weight: 900;
 }
-#car1, #car2, #car3, #car4, #car5, #car6 {
-    width: 20vw;
-    margin: 0 5px 0 5px;
-}
-#car1:hover{
+#car1:hover {
     content: url(../images/D8ne_car1_hover.png);
 }
-#car2:hover{
+
+#car2:hover {
     content: url(../images/D8ne_car2_hover.png);
 }
-#car3:hover{
+
+#car3:hover {
     content: url(../images/D8ne_car3_hover.png);
 }
-#car4:hover{
+
+#car4:hover {
     content: url(../images/D8ne_car4_hover.png);
 }
-#car5:hover{
+
+#car5:hover {
     content: url(../images/D8ne_car5_hover.png);
 }
-#car6:hover{
+
+#car6:hover {
     content: url(../images/D8ne_car6_hover.png);
 }
+
 /* #downtowner:hover{
     content: url(../images/D8ne_downtowner_hover.png);
 }

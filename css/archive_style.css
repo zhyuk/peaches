@@ -15,12 +15,6 @@ table {
     /* border: solid 1px green; */
 }
 
-td {
-    text-align: center;
-    font-size: 2.5rem;
-    padding: 10px;
-}
-
 th {
     width: 15vw;
     height: 15vw;
