@@ -20,3 +20,9 @@ img {
 img:hover {
     content: url(../images/logo_hover.png);
 }
+@media (max-width:786px){
+    body{
+        background-color: black;
+        background-position-y: 20vh;
+    }
+}

@@ -1,0 +1,58 @@
+@media (max-width:786px) {
+    body{
+        background-color: black;
+    }
+    /* header */
+    #header .logo img, #footer_logo img{
+        width: 80px;
+        padding-top: 20px;
+    }
+    #main_menu li{
+        font-size: 1.4rem;;
+    }
+    /* Peaches Page */
+    #left{
+        width: 20vw;
+        margin-right: 0;
+        background-image: none;
+    }
+    #right{
+        width: 60vw;
+        text-align: center;
+        /* border: solid 1px red; */
+    }
+    #right h2{
+        font-size: 2rem;
+    }
+    #right h4, #right h3{
+        font-size: 1.3rem;
+    }
+    /* footer */
+    #footer_text li{
+        float: right;
+        width: 50vw;
+        font-size: 1rem;
+    }
+    .bold{
+        font-size: 1.3rem;
+    }
+    /* D8NE, Parts, Archive Page */
+    table th{
+        width: 40vw;
+        justify-content: center center;
+    }
+    table th h3{
+        font-size: 1rem;
+    }
+    .text_box{
+        width: 80vw;
+    }
+    .text_box h1{
+        font-size: 1.3rem;
+        padding-top: 15px;
+    }
+    /* archive */
+    th h1{
+        font-size: 1rem;
+    }
+}
