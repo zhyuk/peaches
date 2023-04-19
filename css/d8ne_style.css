@@ -1,8 +1,9 @@
-body{
-    font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
-    font-weight: 700;
+body {
+    font-family: 'PT Sans', sans-serif;
     font-size: 100%;
+    font-weight: 700;
 }
+
 
 #bg {
     /* width: 100vw;
@@ -74,6 +75,7 @@ th h3 {
     font-size: 2rem;
     font-weight: 900;
 }
+
 #car1:hover {
     content: url(../images/D8ne_car1_hover.png);
 }
