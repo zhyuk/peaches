@@ -2,6 +2,8 @@
     float: left;
     padding: 25px;
 }
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/pretendard.css");
+
 body{
     font-family: 'PT Sans', sans-serif;
     font-size: 100%;
