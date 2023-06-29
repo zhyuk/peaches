@@ -1,2 +1,2 @@
-Web Publishing Project 01 - Peaches<br>
-https://zhyuk.github.io/peaches/
+2023 Web Publishing Project 01<br>
+<b>https://zhyuk.github.io/peaches/</b>
